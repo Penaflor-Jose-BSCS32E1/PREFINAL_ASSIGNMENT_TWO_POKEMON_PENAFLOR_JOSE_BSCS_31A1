@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|e:\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\pokemonapp\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|solutionrelative:models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Models\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Models\\Pokemon.cs",
+              "ToolTip": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Models\\Pokemon.cs",
+              "RelativeToolTip": "Models\\Pokemon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T03:33:28.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
