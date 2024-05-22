@@ -3,17 +3,21 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using POKEMONAPP.Models;
+using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace POKEMONAPP.Controllers
 {
     public class PokemonController : Controller
     {
         private readonly HttpClient _httpClient;
-
-        public PokemonController(HttpClient httpClient)
+        private readonly ILogger<PokemonController> _logger;
+        public PokemonController(ILogger<PokemonController> logger, HttpClient httpClient)
         {
+            _logger = logger;
             _httpClient = httpClient;
         }
+
 
         public async Task<IActionResult> Index(int page = 1)
         {
@@ -28,12 +32,34 @@ namespace POKEMONAPP.Controllers
 
         public async Task<IActionResult> Details(string name)
         {
-            string apiUrl = $"https://pokeapi.co/api/v2/pokemon/{name}";
-            var response = await _httpClient.GetStringAsync(apiUrl);
-            var pokemon = JsonConvert.DeserializeObject<Pokemon>(response);
+            try
+            {
+                // Example URL for fetching Pokemon details from an API (replace with your actual API endpoint)
+                string apiUrl = $"https://api.example.com/pokemon/{name}";
 
-            return View(pokemon);
+                HttpResponseMessage response = await _httpClient.GetAsync(apiUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseContent = await response.Content.ReadAsStringAsync();
+                    var pokemonDetails = JsonConvert.DeserializeObject<PokemonResult>(responseContent);
+                    return Ok(pokemonDetails);
+                }
+                else
+                {
+                    // Log error for unsuccessful response
+                    _logger.LogError("Failed to fetch Pokemon details. Status code: {StatusCode}", response.StatusCode);
+                    return StatusCode((int)response.StatusCode, "Failed to fetch Pokemon details.");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log any unexpected exceptions
+                _logger.LogError(ex, "An error occurred while fetching Pokemon details.");
+                return StatusCode(StatusCodes.Status500InternalServerError, "An unexpected error occurred.");
+            }
         }
     }
+}
 
-}   
+

@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|solutionrelative:controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|e:\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\pokemonapp\\views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|solutionrelative:views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|e:\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\pokemonapp\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|solutionrelative:models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|solutionrelative:views\\pokemon\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|e:\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\pokemonapp\\views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|solutionrelative:views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|e:\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\pokemonapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|e:\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\pokemonapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|e:\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\pokemonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A77321B4-D3A7-4BC1-8AA6-37E02B13FE7E}|POKEMONAPP.csproj|e:\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\prefinal_assignment_two_pokemon_penaflor_jose_bscs_31a1\\pokemonapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,8 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Models\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Models\\Pokemon.cs",
+              "ToolTip": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Models\\Pokemon.cs",
+              "RelativeToolTip": "Models\\Pokemon.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAQwBEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T04:39:54.741Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -66,12 +75,11 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T04:05:24.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T04:05:24.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Views\\Pokemon\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Pokemon\\Details.cshtml",
@@ -84,46 +92,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pokemon.cs",
-              "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Models\\Pokemon.cs",
-              "RelativeDocumentMoniker": "Models\\Pokemon.cs",
-              "ToolTip": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Models\\Pokemon.cs",
-              "RelativeToolTip": "Models\\Pokemon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T03:33:28.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T03:38:32.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PokemonController.cs",
               "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Controllers\\PokemonController.cs",
               "RelativeDocumentMoniker": "Controllers\\PokemonController.cs",
               "ToolTip": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Controllers\\PokemonController.cs",
               "RelativeToolTip": "Controllers\\PokemonController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBgAAAAjAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T03:36:09.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -131,12 +113,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-22T03:41:22.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T03:41:22.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Views\\Pokemon\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Pokemon\\Index.cshtml",
@@ -157,12 +138,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T03:41:29.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T03:41:29.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -170,12 +150,11 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T03:57:09.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T03:57:09.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -187,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "POKEMONAPP.csproj",
               "DocumentMoniker": "E:\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\PREFINAL_ASSIGNMENT_TWO_POKEMON_PENAFLOR_JOSE_BSCS_31A1\\POKEMONAPP\\POKEMONAPP.csproj",
               "RelativeDocumentMoniker": "POKEMONAPP.csproj",
