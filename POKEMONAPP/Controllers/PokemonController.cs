@@ -21,7 +21,7 @@ namespace POKEMONAPP.Controllers
 
         public async Task<IActionResult> Index(int page = 1)
         {
-            string apiUrl = $"https://pokeapi.co/api/v2/pokemon?offset={(page - 1) * 20}&limit=20";
+            string apiUrl = $"https://pokeapi.co/api/v2/pokemon?offset={(page - 1) * 30}&limit=30";
             var response = await _httpClient.GetStringAsync(apiUrl);
             var pokemonList = JsonConvert.DeserializeObject<PokemonList>(response);
 
@@ -32,32 +32,26 @@ namespace POKEMONAPP.Controllers
 
         public async Task<IActionResult> Details(string name)
         {
-            try
-            {
+        
                 // Example URL for fetching Pokemon details from an API (replace with your actual API endpoint)
-                string apiUrl = $"https://api.example.com/pokemon/{name}";
+                string apiUrl = $"https://pokeapi.co/api/v2/pokemon{name}";
 
                 HttpResponseMessage response = await _httpClient.GetAsync(apiUrl);
 
                 if (response.IsSuccessStatusCode)
                 {
                     string responseContent = await response.Content.ReadAsStringAsync();
-                    var pokemonDetails = JsonConvert.DeserializeObject<PokemonResult>(responseContent);
+                    var pokemonDetails = JsonConvert.DeserializeObject<Pokemon>(responseContent);
                     return Ok(pokemonDetails);
                 }
                 else
                 {
                     // Log error for unsuccessful response
                     _logger.LogError("Failed to fetch Pokemon details. Status code: {StatusCode}", response.StatusCode);
+                    _logger.LogDebug("Response content: {ResponseContent}", await response.Content.ReadAsStringAsync());
                     return StatusCode((int)response.StatusCode, "Failed to fetch Pokemon details.");
                 }
-            }
-            catch (Exception ex)
-            {
-                // Log any unexpected exceptions
-                _logger.LogError(ex, "An error occurred while fetching Pokemon details.");
-                return StatusCode(StatusCodes.Status500InternalServerError, "An unexpected error occurred.");
-            }
+            
         }
     }
 }
