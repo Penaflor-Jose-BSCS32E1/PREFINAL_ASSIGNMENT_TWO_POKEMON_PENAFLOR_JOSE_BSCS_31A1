@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using POKEMONAPP.Models;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Newtonsoft.Json.Linq;
 
 namespace POKEMONAPP.Controllers
 {
@@ -32,26 +33,17 @@ namespace POKEMONAPP.Controllers
 
         public async Task<IActionResult> Details(string name)
         {
-        
-                // Example URL for fetching Pokemon details from an API (replace with your actual API endpoint)
-                string apiUrl = $"https://pokeapi.co/api/v2/pokemon{name}";
+            var response = await _httpClient.GetStringAsync($"https://pokeapi.co/api/v2/pokemon/{name}");
+            var data = JObject.Parse(response);
 
-                HttpResponseMessage response = await _httpClient.GetAsync(apiUrl);
+            var pokemon = new Pokemon
+            {
+                Name = data["name"].ToString(),
+                Moves = data["moves"].Select(m => m["move"]["name"].ToString()).ToList(),
+                Abilities = data["abilities"].Select(a => a["ability"]["name"].ToString()).ToList()
+            };
 
-                if (response.IsSuccessStatusCode)
-                {
-                    string responseContent = await response.Content.ReadAsStringAsync();
-                    var pokemonDetails = JsonConvert.DeserializeObject<Pokemon>(responseContent);
-                    return Ok(pokemonDetails);
-                }
-                else
-                {
-                    // Log error for unsuccessful response
-                    _logger.LogError("Failed to fetch Pokemon details. Status code: {StatusCode}", response.StatusCode);
-                    _logger.LogDebug("Response content: {ResponseContent}", await response.Content.ReadAsStringAsync());
-                    return StatusCode((int)response.StatusCode, "Failed to fetch Pokemon details.");
-                }
-            
+            return View(pokemon);
         }
     }
 }
